@@ -1,0 +1,150 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="program_version">041017a</string>
+    <string name="about_string">
+        Created by Vladimir Zhelezarov\n
+        (jelezarov.vladimir@gmail.com)\n\n
+        Version 1.0 (build %1$s)
+    </string>
+
+    <string name="app_name">BT Display</string>
+    <string name="none_paired">Keine verknüpfte Geräte</string>
+    <string name="scanning">Suche &#8230;</string>
+    <string name="select_device">Suche beendet</string>
+    <string name="none_found">Keine gefunden</string>
+    <string name="not_connected">Nicht verbunden</string>
+    <string name="title_paired_devices">Verknüpfte Geräte</string>
+    <string name="title_other_devices">Gefundene Geräte</string>
+    <string name="button_scan">Suche</string>
+    <string name="title_connected_to">
+        Verbunden mit <xliff:g id="device_name">%1$s</xliff:g>
+    </string>
+    <string name="title_connecting">verbinden &#8230;</string>
+    <string name="title_not_connected">Nicht verbunden</string>
+    <string name="bt_not_enabled_leaving">Bluetooth ist nicht an - App schliesst</string>
+    <string name="error">Fehler</string>
+    <string name="io_problem">I/O Problem</string>
+    <string name="wait">Dauert noch ein Moment &#8230;</string>
+    <string name="macroRunning">Ein Macro wird ausgeführt!</string>
+    <string name="noBuffer">Nichts im Puffer!</string>
+    <string name="production">Zählerstände:</string>
+    <string name="okay">Okay</string>
+    <string name="screenshot">Screenshot</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="noInternet">Verbindung zum Server fehlgeschalten</string>
+    <string name="used_libraries">
+        - <a href="http://www.pjrc.com/teensy/td_libs_AltSoftSerial.html">
+        AltSoftSerial:</a>\n
+        license: free\n\n
+        - <a href="https://github.com/googlesamples/android-BluetoothChat">
+        Android Bluetooth Chat:</a>\n
+	    license:<a href="https://github.com/googlesamples/android-BluetoothChat/
+	    blob/master/LICENSE">
+        Apache V 2.0</a>\n\n
+        - <a href="https://www.arduino.cc/en/Main/FAQ">Arduino:</a>\n
+        license: <a href="https://github.com/arduino/Arduino/blob/master/license.txt">LGPL</a>\n\n
+        - <a href="http://www.jcraft.com/jsch/">JSch:</a>\n
+        license: <a href="http://www.jcraft.com/jsch/LICENSE.txt">BSD</a>\n\n
+        - <a href="http://www.forward.com.au/pfod/SipHashLibrary/index.html">SIP HASH</a>\n
+        license: free
+    </string>
+    <string name="welcome">Willkommen bei BT Display</string>
+    <string name="we_use_libraries">
+        \u0009Diese Software benutzt folgende Softwarebibliotheken:
+    </string>
+    <string name="we_use_disclaimer">\u0009Nutzungsbedingungen - Haftungsausschluss:</string>
+    <string name="disclaimer">\u0009Vladimir Zhelezarov übernimmt keine Verantwortung und haftet
+        für nichts - Auch wenn nichts funktioniert, wenn etwas brennt, wenn die Anlage kaputt geht,
+        wenn dein Auto nicht mehr startet, wenn deine Frau dich verlässt oder zwei Postboten
+        gleichzeitig vögelt, wenn die Welt unter geht, wenn die Aliens kommen, dich entführen und
+        dann sexuelle Experimente mit dir durchführen oder auch für alles mögliches was sonst
+        passieren könnte.\n\n
+    Jetzt noch mal ganz offiziell:\n\n
+    <b>Haftungsausschluss:</b>\n
+        Diese Software und die dazugehörige Hardware werden \"wie sie sind\" und ohne jede
+        Gewährleistung für Funktion, Korrektheit oder Fehlerfreiheit zur Verfügung gestellt.\n
+        Für jedweden direkten oder indirekten Schaden - insbesondere Schaden an anderer Software,
+        Schaden an Hardware, Schaden durch Nutzungsausfall und Schaden durch Funktionsuntüchtigkeit
+        der Software, kann der Author nicht haftbar gemacht werden. Ausschließlich der Benutzer
+        haftet für die Folgen der Benutzung dieser Software und der dazugehörigen Hardware.\n
+        Diese Software und die dazugehörige Hardware werden mit größter Sorgfalt entwickelt,
+        jedoch können Fehler niemals ausgeschlossen werden. Es kann daher keine Gewähr für die
+        Sicherheit Ihrer Daten oder Ihrer Anlagen übernommen werden.
+    </string>
+    <string name="accept_disclaimer">\u0009Ich akzeptiere die Nutzungsbedingungen und werde die
+        App und die dazugehörige Hardware auf eigene Gefahr benutzen.</string>
+    <string name="agree">Zustimmen</string>
+    <string name="disagree">Ablehnen</string>
+    <string name="version_desc">"Version %1$s"</string>
+    <string name="folderNotFound">Ordner nicht gefunden!</string>
+    <string name="wtc3">WTC3</string>
+    <string name="wtc2">WTC2</string>
+    <string name="logIn">Log In</string>
+    <string name="logOut">Log Out</string>
+    <string name="testschalter">Testschalter(!) :</string>
+    <string name="hauptpumpe_ls">Hauptpumpe LS</string>
+    <string name="l_fter_ls">Lüfter LS</string>
+    <string name="hauptpumpe_hs">Hauptpumpe HS</string>
+    <string name="l_fter_hs">Lüfter HS</string>
+    <string name="bypass_getriebe">Bypass Getriebe</string>
+    <string name="screen">Scr</string>
+    <string name="quick_macros">Quick Macros (!)</string>
+    <string name="steuerung">Steuerung:</string>
+    <string name="etwas_vergessen">Etwas vergessesn auszuschalten?</string>
+    <string name="unbekannteSteuerung">Unbekannte oder nicht unterstützte Steuerung</string>
+    <string name="reset">Reset</string>
+    <string name="not_working">Funktioniert noch nicht :(</string>
+    <string name="test_switches_off">Testschalter nicht eingestellt!</string>
+    <string name="userDisagrees">Ohne deine Zustimmung kann ich nichts machen!</string>
+    <string name="noch_nichts_erkannt">Noch nichts erkannt &#8230;</string>
+    <string name="labern">Labern !</string>
+    <string name="entf">Entf</string>
+    <string name="about">\?</string>
+    <string name="zeige">Zeige</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_start">Start</string>
+    <string name="_7">7</string>
+    <string name="_wtc">WTC</string>
+    <string name="_stop">Stop</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_bt">BT</string>
+    <string name="_0">0</string>
+    <string name="_8">8</string>
+    <string name="_point">.</string>
+    <string name="_9">9</string>
+    <string name="_plusminus">+/-</string>
+    <string name="_esc">ESC</string>
+    <string name="_exp">EXP</string>
+    <string name="_up">Up</string>
+    <string name="_left">Left</string>
+    <string name="_e">E</string>
+    <string name="_right">Right</string>
+    <string name="_down">Down</string>
+    <string name="_anruf">Anruf</string>
+    <string name="_docs">Docs</string>
+    <string name="_summe">Summe</string>
+    <string name="_log_in">Log In</string>
+    <string name="_foto">Foto</string>
+    <string name="_licht">Licht</string>
+    <string name="_talk">Talk</string>
+    <string name="_do">DO</string>
+    <string name="_40char_test_string">0123456789012345678901234567890123456789</string>
+    <string name="dev">developer</string>
+    <string name="description_info">description</string>
+    <string name="saved">Gespeichert</string>
+    <string name="please_choose">Bitte auswählen:</string>
+    <string name="ask_for_FA2000">Ist an der Anlage ein FA2000 verbaut?</string>
+    <string name="WTC3_choose_manuel">Die Steuerung ist entweder nicht unterstützt oder WTC3.
+        Bitte manuell auswählen</string>
+    <string name="login_first">Du musst dich zuerst bei der Anlage einloggen!</string>
+    <string name="connected">Verbunden!</string>
+    <string name="check_encoding">Jetzt prüfe Encoding &#8230;</string>
+    <string name="CJC">CJC</string>
+    <string name="not_working_there">Das funktioniert hier nicht\n(soweit ich weiss :) )!</string>
+    <string name="io_error">I/O Fehler!!! (Datei existiert nicht?)</string>
+</resources>

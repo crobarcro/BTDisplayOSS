@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welcome_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="vladimir.apps.dwts.BTDisplay.WelcomeScreen">
+
+    <TextView
+        android:text="@string/welcome"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:text="@string/we_use_libraries"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView4" />
+
+    <ScrollView
+        android:background="@drawable/simple_border"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView4"
+        android:padding="5dp"
+        android:id="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <TextView
+            android:text="@string/used_libraries"
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+
+    <TextView
+        android:text="@string/we_use_disclaimer"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView6" />
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:fadeScrollbars="false"
+        android:background="@drawable/simple_border"
+        android:padding="5dp"
+        android:layout_below="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <TextView
+            android:text="@string/disclaimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7" />
+
+    </ScrollView>
+
+    <TextView
+        android:text="@string/accept_disclaimer"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:text="@string/agree"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:onClick="agree" />
+
+    <Button
+        android:text="@string/disagree"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button2"
+        android:layout_marginBottom="10dp"
+        android:onClick="disagree" />
+
+</RelativeLayout>

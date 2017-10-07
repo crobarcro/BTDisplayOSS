@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="states2">
+        <item>Unbekannt</item>
+        <item>Aus</item>
+        <item>Ein</item>
+        <item>Aus - Manuell</item>
+        <item>Ein - Manuell</item>
+    </string-array>
+    <string-array name="control">
+        <item>Unbekannt</item>
+        <item>V1038</item>
+        <item>V1041</item>
+        <item>V1043_46</item>
+        <item>V1043_46 FA2000</item>
+        <item>V1049</item>
+        <item>V1047</item>
+        <item>V1048</item>
+<!--
+        <item>V302002</item>
+        <item>V302003</item>
+        <item>V302005</item>
+        <item>V302006</item>
+        <item>V302007</item>
+-->
+        <item>ABLESEN</item>
+    </string-array>
+</resources>
