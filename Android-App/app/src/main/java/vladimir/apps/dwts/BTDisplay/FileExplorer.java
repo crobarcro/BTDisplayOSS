@@ -1,3 +1,8 @@
+/*
+ * Copyright (C) 2017 Vladimir Zhelezarov
+ * Licensed under MIT License.
+ */
+
 package vladimir.apps.dwts.BTDisplay;
 
 import android.app.ListActivity;
@@ -21,8 +26,6 @@ import static android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION;
 
 /**
  * This looks for and opens our documents (like the circuit diagrams)
- * @author
- *      Vladimir (jelezarov.vladimir@gmail.com)
  */
 public class FileExplorer extends ListActivity {
 

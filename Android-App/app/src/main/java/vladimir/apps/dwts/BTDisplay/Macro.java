@@ -1,3 +1,8 @@
+/*
+ * Copyright (C) 2017 Vladimir Zhelezarov
+ * Licensed under MIT License.
+ */
+
 package vladimir.apps.dwts.BTDisplay;
 
 import static vladimir.apps.dwts.BTDisplay.MainActivity.macroModes.*;
@@ -8,8 +13,6 @@ import static vladimir.apps.dwts.BTDisplay.MainActivity.quickMacrosCheck.*;
  * the method runMacro (async task) in the MainActivity understands the macros here
  * To use it - define macro, load it in macroTask and launch the runMacro
  * An example is worth a thousand words - so look at the dozen macros defined in the MainActivity
- * @author
- *      Vladimir (jelezarov.vladimir@gmail.com)
  */
 class Macro {
     private MainActivity.macroModes macroMode;                       //{move, check, exec, read, onOff, increment, setchar, checkchar}

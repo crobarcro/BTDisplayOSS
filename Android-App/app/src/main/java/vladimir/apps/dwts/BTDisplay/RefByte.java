@@ -1,9 +1,10 @@
+/*
+ * Copyright (C) 2017 Vladimir Zhelezarov
+ * Licensed under MIT License.
+ */
+
 package vladimir.apps.dwts.BTDisplay;
 
-/**
- * @author
- *      Vladimir (jelezarov.vladimir@gmail.com)
- */
 class RefByte {
     byte b;
 }

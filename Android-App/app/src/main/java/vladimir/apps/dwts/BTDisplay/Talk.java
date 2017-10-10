@@ -1,3 +1,8 @@
+/*
+ * Copyright (C) 2017 Vladimir Zhelezarov
+ * Licensed under MIT License.
+ */
+
 package vladimir.apps.dwts.BTDisplay;
 
 import java.io.BufferedReader;
@@ -24,9 +29,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- * Google Talk and taking notes
- * @author
- *      Vladimir (jelezarov.vladimir@gmail.com)
+ * Using Google Talk and taking notes
  */
 public class Talk extends Activity {
 

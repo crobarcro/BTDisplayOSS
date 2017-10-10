@@ -1,9 +1,10 @@
+/*
+ * Copyright (C) 2017 Vladimir Zhelezarov
+ * Licensed under MIT License.
+ */
+
 package vladimir.apps.dwts.BTDisplay;
 
-/**
- * @author
- *      Vladimir (jelezarov.vladimir@gmail.com)
- */
 class MyDebug {
     static final boolean LOG = false;
 //    static final boolean LOG = true;

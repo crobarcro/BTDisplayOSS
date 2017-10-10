@@ -1,11 +1,14 @@
+/*
+ * Copyright (C) 2017 Vladimir Zhelezarov
+ * Licensed under MIT License.
+ */
+
 package vladimir.apps.dwts.BTDisplay;
 
 import android.widget.TextView;
 
 /**
  * This takes care of the synchronized access to the displayed strings on the display
- * @author
- *      Vladimir (jelezarov.vladimir@gmail.com)
  */
 class SyncTextView {
     private TextView syncView;

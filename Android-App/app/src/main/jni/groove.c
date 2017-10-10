@@ -1,10 +1,10 @@
-/**
+/*
+ * Copyright (C) 2017 Vladimir Zhelezarov
+ * Licensed under MIT License.
  *
- * BT Display
- * JNI layer - it takes care about string encryption and apk integrity checking
+ * BT Display JNI layer
+ * it takes care about string encryption and apk integrity checking
  *
- * @author
- *      Vladimir (jelezarov.vladimir@gmail.com)
  */
 
 #include <jni.h>

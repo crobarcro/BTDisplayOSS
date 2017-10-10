@@ -1,42 +1,48 @@
 /**
-*
-* BT Display Interface Firmware
-* @author Vladimir 
-*    (jelezarov.vladimir@gmail.com)
-*
-* For ease of use this is made to be build and linked with the Ardiono IDE
-*
-* Please note - this code will -NOT- work out-of-the-box. First fill
-*      every (TODO: FILL ME) sections
-*
-* This software uses SIP-HASH
-* http://www.forward.com.au/pfod/SipHashLibrary/index.html
-*
-* Last change: 05.10.17
-* now Open Source and therefore removed everything specific to AN-BONUS 
-*      (Siemens) - legal concerns with reverse-engineered stuff
-*
-* -- Version 1.00  / 100 --
-* Command sequence changed
-* Delay before "$$$"
-* Switched to reset (R,1) after baud change
-* Switched back to U temporarily change
-*  fixed broken Serial.begin(new rate)
-* Properly implemented Serial.end
-* WTC led on D 10 (pin 14) - PIN16 = DO12
-* Feeding garbage to the listener/attacker and waiting for
-*      the unlock sequence
-* Switched to another command sequence
-* DYNAMIC CUSTOM ENCRYPTION
-* now the custom sequence includes everything, not just BT comms
-* check for commMode on the WT and disallow it
-* switched away from Walter randommness to millis - init when someone 
-*      connects
-* SIP HASH two way
-* heavily commented
-* the extended ascii are send without shift
-* fixed the problem when WT interfere with the Init - the boolean cutTheCrap
-*/
+ * Copyright (C) 2017 Vladimir Zhelezarov
+ * Licensed under MIT License.
+ *
+ * This software uses SIP-HASH:
+ * (c)2013 Forward Computing and Control Pty. Ltd.
+ * www.forward.com.au
+ * http://www.forward.com.au/pfod/SipHashLibrary/index.html
+ * licensed under:
+ * "This code may be freely used for both private and commercial use.
+ * Provide this copyright is maintained."
+ *
+ *
+ * --BT Display Interface Firmware--
+ *
+ * For ease of use this is made to be build and linked with the Ardiono IDE
+ *
+ * Please note - this code will -NOT- work out-of-the-box. First fill
+ *      every (TODO: FILL ME) sections
+ *
+ * Last change: 10.10.17 (updated license information)
+ * now Open Source and therefore removed everything specific to AN-BONUS 
+ *      (Siemens) because of potential legal concerns with reverse-engineered stuff
+ *
+ * -- Version 1.00  / 100 --
+ * Command sequence changed
+ * Delay before "$$$"
+ * Switched to reset (R,1) after baud change
+ * Switched back to U temporarily change
+ *  fixed broken Serial.begin(new rate)
+ * Properly implemented Serial.end
+ * WTC led on D 10 (pin 14) - PIN16 = DO12
+ * Feeding garbage to the listener/attacker and waiting for
+ *      the unlock sequence
+ * Switched to another command sequence
+ * DYNAMIC CUSTOM ENCRYPTION
+ * now the custom sequence includes everything, not just BT comms
+ * check for commMode on the WT and disallow it
+ * switched away from Walter randommness to millis - init when someone 
+ *      connects
+ * SIP HASH two way
+ * heavily commented
+ * the extended ascii are send without shift
+ * fixed the problem when WT interfere with the Init - the boolean cutTheCrap
+ */
 
 
 #include "SipHash_2_4.h"

@@ -1,3 +1,15 @@
+/*
+ * Copyright (C) 2017 Vladimir Zhelezarov
+ * Licensed under MIT License.
+ * 
+ * This file includes code from "Android Bluetooth Chat":
+ *
+ * Copyright (C) 2009 The Android Open Source Project
+ * Licensed under the Apache License, Version 2.0 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ */
+
 package vladimir.apps.dwts.BTDisplay;
 
 import android.Manifest;
@@ -83,9 +95,6 @@ import static vladimir.apps.dwts.BTDisplay.MainActivity.quickMacrosCheck.doWait;
  *
  * Please note - this code will -NOT- work out-of-the box - first fill all the (TODO:FILL ME)s
  * They are not just here in the MainActivity - look them up with Android Studio
- *
- * @author
- *      Vladimir (jelezarov.vladimir@gmail.com)
  */
 public class MainActivity extends AppCompatActivity {
 

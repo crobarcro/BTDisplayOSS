@@ -56,11 +56,11 @@ Yes I know, this is all hackable, my project is just proof of concept with some 
 - I live and work in Germany. According to the <a href="https://de.wikipedia.org/wiki/Arbeitnehmererfindung">german law</a> I received permission from my employer to do whatever I please with my creation ( well, it wasn't easy :) );
 - My code is released under [MIT](LICENSE) license;
 - It also uses the following libraries:
-  - <a href="http://www.pjrc.com/teensy/td_libs_AltSoftSerial.html">AltSoftSerial</a> license: free
-  - <a href="https://github.com/googlesamples/android-BluetoothChat">Android Bluetooth Chat</a> license:<a href="https://github.com/googlesamples/android-BluetoothChat/blob/master/LICENSE">Apache V 2.0</a>
-  - <a href="https://www.arduino.cc/en/Main/FAQ">Arduino:</a> license: <a href="https://github.com/arduino/Arduino/blob/master/license.txt">LGPL</a>
-  - <a href="http://www.jcraft.com/jsch/">JSch:</a> license: <a href="http://www.jcraft.com/jsch/LICENSE.txt">BSD</a>
-  - <a href="http://www.forward.com.au/pfod/SipHashLibrary/index.html">SIP HASH</a> license: free
+  - <a href="http://www.pjrc.com/teensy/td_libs_AltSoftSerial.html">AltSoftSerial</a>. Licensed under: <a href="https://github.com/PaulStoffregen/AltSoftSerial">MIT</a>;
+  - <a href="https://github.com/googlesamples/android-BluetoothChat">Android Bluetooth Chat</a>. Licensed under:<a href="https://github.com/googlesamples/android-BluetoothChat/blob/master/LICENSE"> Apache V 2.0</a>;
+  - <a href="https://www.arduino.cc/en/Main/FAQ">Arduino</a>. Licensed under: <a href="https://github.com/arduino/Arduino/blob/master/license.txt">LGPL</a>;
+  - <a href="http://www.jcraft.com/jsch/">JSch</a>. Licensed under: <a href="http://www.jcraft.com/jsch/LICENSE.txt">BSD</a>;
+  - <a href="http://www.forward.com.au/pfod/SipHashLibrary/index.html">SIP HASH</a>. Licensed under: "This code may be freely used for both private and commercial use. Provide this copyright is maintained."
 
 ## 
 <p style="text-align: right">

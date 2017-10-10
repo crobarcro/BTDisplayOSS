@@ -1,3 +1,8 @@
+/*
+ * Copyright (C) 2017 Vladimir Zhelezarov
+ * Licensed under MIT License.
+ */
+
 package vladimir.apps.dwts.BTDisplay;
 
 import android.app.Activity;
@@ -15,8 +20,6 @@ import java.io.IOException;
 /**
  * This gets shown every time the app runs for the first time,
  * after update or if the user still not agreed to the terms
- * @author
- *      Vladimir (jelezarov.vladimir@gmail.com)
  */
 public class WelcomeScreen extends AppCompatActivity {
 

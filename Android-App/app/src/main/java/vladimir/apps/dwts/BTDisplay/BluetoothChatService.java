@@ -1,3 +1,15 @@
+/*
+ * Copyright (C) 2017 Vladimir Zhelezarov
+ * Licensed under MIT License.
+ * 
+ * This file is based on "Android Bluetooth Chat":
+ *
+ * Copyright (C) 2009 The Android Open Source Project
+ * Licensed under the Apache License, Version 2.0 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ */
+
 package vladimir.apps.dwts.BTDisplay;
 
 import java.io.IOException;
@@ -25,11 +37,6 @@ import static vladimir.apps.dwts.BTDisplay.MainActivity.csAllOk;
  * connections with other devices. It has a thread that listens for incoming
  * connections, a thread for connecting with a device, and a thread for
  * performing data transmissions when connected.
- *
- * Based on the Android Bluetooth Chat with modifications to work with our
- * encryption and connection scenario
- * @author  Google; Vladimir (jelezarov.vladimir@gmail.com)
- *
  */
 class BluetoothChatService {
     // Debugging

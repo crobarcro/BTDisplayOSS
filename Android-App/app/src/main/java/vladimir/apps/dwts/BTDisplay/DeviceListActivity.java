@@ -1,17 +1,13 @@
 /*
+ * Copyright (C) 2017 Vladimir Zhelezarov
+ * Licensed under MIT License.
+ * 
+ * This file is based on "Android Bluetooth Chat":
+ *
  * Copyright (C) 2009 The Android Open Source Project
+ * Licensed under the Apache License, Version 2.0 
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
  */
 
 package vladimir.apps.dwts.BTDisplay;
@@ -49,10 +45,6 @@ import android.widget.Toast;
  * detected in the area after discovery. When a device is chosen by the user,
  * the MAC address of the device is sent back to the parent Activity in the
  * result Intent.
- *
- * Based on the Android Bluetooth Chat with modifications to work with our
- * encryption and connection scenario iclusive MAC and NAME filtering
- * @author  Google / Vladimir (jelezarov.vladimir@gmail.com)
  */
 public class DeviceListActivity extends Activity {
 
