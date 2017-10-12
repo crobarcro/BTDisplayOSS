@@ -36,7 +36,7 @@ Yes I know, this is all hackable, my project is just proof of concept with some 
 
 ## How to build
 ##### Prerequisites:
-- Some programmable serial to Bluetooth interface - I build one myself on top of ATMEGA328 and RN41;
+- Some programmable serial to Bluetooth interface - I build one myself on top of ATMEGA328 and RN41 - [it is open-source too](https://github.com/holodon/Serial-to-Bluetooth);
 - Android Studio with NDK, CMake and LLDB support;
 - Some decent C Editor - the firmware is made to be linked and compiled with Arduino IDE which is very convenient, but you can of course link and compile yourself, if you don't like the Arduino's somewhat restrictive license;
 - Some basic C and JAVA skills
