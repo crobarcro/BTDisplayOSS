@@ -1,10 +1,8 @@
 # Bluetooth Display
-## Wireless wind turbine controller using an Android phone
-### Developed for AN-BONUS (Siemens) WTC2 and WTC3 wind turbines, easily adaptable to others
+## Software for controlling AN-BONUS (Siemens) wind turbines with an Android Smartphone
+### for turbines with WTC2 or WTC3 software
 
-_!!! Please note - this code will **-NOT-** work out-of-box`*`. First you have to follow the instructions below and fill in some empty spaces. This assumes you know the turbine command instructions and you know how to control the turbine with its standard wired controller. Some basic C and JAVA understanding is also required._
-
- *I have permission (according to the german law) from my employer to do whatever I please with my creation, however I can not post all of the turbine instructions online - reverse engineered stuff and the like.
+_!!! Please note - this code will **-NOT-** work out-of-box`*`. First you have to fill in some empty spaces in the code. This assumes you know the turbine command instructions and you know how to control the turbine with its standard wired controller. I can not post this because of legal concerns._
 
 ##### See the BT Display in action on a 2MW AN-BONUS (Siemens) WTC2 wind turbine:
 [![YouTube Video](btdisplay.png "click for a YouTube Video")](https://youtu.be/T3RdbmtGXXk)
@@ -21,39 +19,21 @@ _!!! Please note - this code will **-NOT-** work out-of-box`*`. First you have t
   - notebook with voice control;
   - camera with folder organizer;
   - flashlight;
-  - **_LOT_** of macros* (repeatable turbine instructions which gets executed with a single user click)
+  - macros* (repeatable turbine instructions which gets executed with a single user click)
 
-*The pre-programmed macros are deleted in this open-source release, because of legal concerns, but you can use the very flexible macro framework to create yours to your liking. Just look in the code.
+*The pre-programmed macros are deleted in this open-source release, because of legal concerns, but you can use the macro framework to create yours to your liking.
 
 - There are also some nice advanced technical features, like:
   - Two-way authentication with random hashing challenges - both sides test each others authenticity before the real communication is started;
   - Dynamic custom encryption - every session uses different "language";
   - String encryption;
   - APK tampering protection, build in JNI;
-  - and of course - MAC binding
+  - and of course - MAC binding.
   
-Yes I know, this is all hackable, my project is just proof of concept with some layered approach to security added mostly for fun.
-
-## How to build
-##### Prerequisites:
-- Some programmable serial to Bluetooth interface - I build one myself on top of ATMEGA328 and RN41 - [it is open-source too](https://github.com/vlzware/Serial-to-Bluetooth);
-- Android Studio with NDK, CMake and LLDB support;
-- Some decent C Editor - the firmware is made to be linked and compiled with Arduino IDE which is very convenient, but you can of course link and compile yourself, if you don't like the Arduino's somewhat restrictive license;
-- Some basic C and JAVA skills
-##### Building
-- Read the code and get a basic understanding of the flow - there are plenty of comments almost everywhere;
-- Fill in all the gaps - they are marked with `TODO: FILL ME`
-- Basically, you need to fill in:
-  - your signing config in build.gradle;
-  - come up with a key for the hashing function - has to be the same on both sides of course;
-  - `init` sequences - two of them - practically arbitrary arrays;
-  - your signing hash and android-id for the target device for the JNI layer which takes care of string encryption and tampering protection;
-  - or you can completely skip the JNI security layer (not recommended) - then adjust the calls from the java classes;
-  - fill in some macros (optional) - or skip this if you don't want to use macros (not recommended - this is a life changer at work);
-  - fill in the state machines in the C firmware - two watching for the init sequences and a (somewhat bigger one) to parse the turbine instructions - as said above I can not post this online, you have to figure it out by yourself - HINT: it is actually not that hard as it looks like - one have to just listen and pay close attention to what travels through the wire :)
+- This software is meant to work with its hardware companion - the programmable RS485 to Bluetooth interface, [which is open-source too](https://github.com/vlzware/Serial-to-Bluetooth).
 
 ## Legal
-- I live and work in Germany. According to the <a href="https://de.wikipedia.org/wiki/Arbeitnehmererfindung">german law</a> I received permission from my employer to do whatever I please with my creation ( well, it wasn't easy :) );
+- I live and work in Germany. According to the <a href="https://de.wikipedia.org/wiki/Arbeitnehmererfindung">german law</a> I received the necessary permission from my employer.
 - My code is released under [MIT](LICENSE) license;
 
 ## Credits
